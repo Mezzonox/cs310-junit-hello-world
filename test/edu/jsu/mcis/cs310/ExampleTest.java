@@ -8,6 +8,8 @@ public class ExampleTest {
     private Main main;
     private String expectedGreeting, expectedReverseGreeting;
     private String expectedReverse1, expectedReverse2, expectedReverse3;
+    
+    // Added expected value
     private String expectedStudentReverse;
     
     @Before
@@ -59,5 +61,4 @@ public class ExampleTest {
         String actual = main.reverse("Happy Birthday!");
         assertEquals(expectedStudentReverse, actual);
     }
-    
 }

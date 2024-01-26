@@ -16,6 +16,7 @@ public class Main {
         return "Hello, World!";
     }
     
+    // Edited reverse method using StringBuilder
     public String reverse(String message) {
         
         StringBuilder str = new StringBuilder(message);
